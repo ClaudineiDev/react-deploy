@@ -2,8 +2,8 @@ name: CI
 
 on:
   push:
-    branches: [ main ]
- env:
+    branches: [main]
+env:
     BUCKET: misterlink.page
  
 jobs:
