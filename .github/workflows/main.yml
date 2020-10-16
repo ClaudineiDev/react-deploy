@@ -4,7 +4,7 @@ on:
   push:
     branches: [main]
 env:
-    BUCKET: misterlink.page
+    BUCKET: www.misterlink.page
  
 jobs:
   build:
