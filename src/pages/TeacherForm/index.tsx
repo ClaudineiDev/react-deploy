@@ -48,7 +48,7 @@ function TeacherForm(){
     }
     function handleCreateClass(e: FormEvent){
         e.preventDefault();
-        axios.post('../../services/subscribe', {email: 'Claudinei'})
+        axios.post('../../services/subscribe', { name });
 /*         api.post('classes/',{
             name,
             avatar,
@@ -139,8 +139,9 @@ function TeacherForm(){
                         <Input 
                             name="to" 
                             label="Filtrar uploads por data" 
-                            value=''
-                            type="date"/>
+                            value={name}
+                            type="date"
+                            onChange={(e) => {setName(e.target.value)}}/>
                         
                     </legend>
                     <div key='' className="field-header">

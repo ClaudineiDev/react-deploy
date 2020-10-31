@@ -1,7 +1,7 @@
 import { NowRequest, NowResponse } from '@vercel/node'
 
 export default async (request: NowRequest, response: NowResponse) => {
-    const { email } = request.body;
+    const {name } = request.body;
 
-    return response.status(201).json({ ok: `${email}`});
+    return response.status(201).json({ ok: `${name}`});
 }
