@@ -39,14 +39,14 @@ function Landing(){
                         Entrar
                     </Link>
 
-                    <Link to="inputdados" className="input-dados">
+                    <Link to="" className="dashboard">
                         <img src={giveClassesIcon} alt="Dashboard"/>
                         DashBoards
                     </Link>
                 </div>
                 <span className="total-connections"> 
                     Total de 22 volumes planejados para carregar. 
-                    <img src={scanIcon} alt="Coração roxo"/>
+
                 </span>
             </div>
 

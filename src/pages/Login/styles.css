@@ -9,7 +9,6 @@ body {
     padding: 1rem;
     margin-bottom: 2rem;
     color: var(--color-text-in-primary);
-    background: var(--color-primary);
 }
 /* url('../../assets/images/landing.svg') no-repeat center*/
 .logo-container {
@@ -55,7 +54,7 @@ a.entrar{
 }
 
 a.esqueceu{
-
+    color: var(--color-button-text);
 }
 
 

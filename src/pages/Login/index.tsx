@@ -54,7 +54,7 @@ function Login(){
                         onChange={(e) => {}}
                         label="Senha" />
                     <Link to="/" className="esqueceu">Esqueceu a senha&#63;</Link>
-                    <Link to="" className="entrar">Entrar</Link>
+                    <Link to="/inputdados" className="entrar">Entrar</Link>
                     </form>
                     
                 </div>

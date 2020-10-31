@@ -1,3 +1,6 @@
+body{
+    padding: 2rem;
+}
 #page-teacher-form {
     width: 100vw;
     height: 100vh;
@@ -52,12 +55,15 @@ margin-top: 6.4rem;
 }
 
 #page-teacher-form main fieldset .input-block + .textarea-block,
-#page-teacher-form main fieldset .select-block + .input-block {
+#page-teacher-form main fieldset .input-block + .input-block {
     margin-top: 2.4rem;
 }
-
+.up-button { 
+    display: flex;
+    justify-content: flex-end;
+}
 #page-teacher-form main label {
-    color: var(--color-text-complement);
+    color: #212121;
 }
 
 #page-teacher-form main footer {
@@ -138,7 +144,27 @@ margin-top: 6.4rem;
         width: 50px;
         height: 50px;
     }
-
+    #page-teacher-form main .field-header{
+        display: grid;
+        grid-template-columns: 0.6fr 2fr 1fr 1.4fr 2fr 1fr;
+        gap: 4% 2%;
+        align-items: center;
+        margin-bottom: 1rem;
+        
+    }
+    #page-teacher-form main .field-header label{
+        color: black;
+        font-style: italic;
+        font-weight: bold;
+    }
+    #page-teacher-form main .upload-item{
+        color: black;
+        display: grid;
+        grid-template-columns: 0.5fr 2fr 1fr 1fr 2fr 0.8fr;
+        gap: 4% 2%;
+        align-items: center;
+        
+    }
     #page-teacher-form main fieldset {
         padding: 0 6.4rem;
     }
