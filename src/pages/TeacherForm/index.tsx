@@ -10,6 +10,8 @@ import iconCSV from '../../assets/images/icons/icon-csv.svg';
 import iconDown from '../../assets/images/icons/icon-download.svg';
 import api from '../../services/api';
 
+import axios from 'axios';
+
 import './styles.css';
 
 
@@ -46,7 +48,7 @@ function TeacherForm(){
     }
     function handleCreateClass(e: FormEvent){
         e.preventDefault();
-
+        axios.post('../../services/subscribe', {email: 'Claudinei'})
 /*         api.post('classes/',{
             name,
             avatar,
@@ -196,9 +198,9 @@ function TeacherForm(){
                         Importante! <br/>
                         Mostrar Uploads do dia
                     </p>
-                {/*<button type="submit">
+                    <button type="submit">
                         Salvar cadastro
-                    </button> */}
+                    </button> 
                 </footer>
                 </form>
             </main>

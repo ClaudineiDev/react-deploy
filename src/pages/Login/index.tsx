@@ -7,7 +7,7 @@ import './styles.css'
 import Select from '../../components/Select';
 import PageHeader from '../../components/PageHeader';
 import logoImg from '../../assets/images/logo.svg';
-import landingImg from '../../assets/images/landing.svg';
+//import landingImg from '../../assets/images/landing.svg';
 
 /* import barcodeIcon from '../../assets/images/icons/barcode.svg';
 import giveClassesIcon from '../../assets/images/icons/give-classes.svg';
